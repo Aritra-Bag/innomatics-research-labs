@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './SearchBar.css'; // Import your CSS file here
+import './SearchBar.css'; 
 
-import countries from  './countries.json'; // Import your JSON file here
+import countries from  './countries.json'; 
 const fetchCountries = async () => {
   return countries;
 };
